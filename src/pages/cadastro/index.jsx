@@ -15,20 +15,20 @@ export function CadastroPage() {
                     <h1 className="h3 mb-3 fw-normal">Preencha todos os campos para efetuar o cadastro.</h1>
                     
                     <div className="mb-3">
-                        <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                        <label htmlFor="exampleFormControlInput1" className="form-label">Nome:</label>
+                        <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Digite seu nome" />
                     </div>
 
                     
                     <div className="mb-3">
-                        <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                        <label htmlFor="exampleFormControlInput1" className="form-label">Email:</label>
+                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Digite seu email" />
                     </div>
 
                     
                     <div className="mb-3">
-                        <label htmlFor="exampleFormControlInput1" className="form-label">Email address</label>
-                        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+                        <label htmlFor="exampleFormControlInput1" className="form-label">Senha:</label>
+                        <input type="password" className="form-control" id="exampleFormControlInput1" placeholder="Digite sua senha" />
                     </div>
 
                     <button className="btn btn-primary w-100 py-2" type="submit">Entrar</button>
